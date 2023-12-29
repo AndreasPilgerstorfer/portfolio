@@ -7,10 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import wag from "./company/wag.svg";
+import tractive from "./company/tractive.png";
+import fhooe from "./company/fhooe.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -25,11 +24,10 @@ export {
   github,
   menu,
   close,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  wag,
+  tractive,
+  fhooe,
 };
