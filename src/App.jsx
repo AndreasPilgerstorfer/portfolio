@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { Introduction, Contact, Experience, Education, Feedbacks, Hero, Navbar, Works, StarsCanvas } from "./components";
+import { Introduction, Contact, Experience, Education, Hero, Navbar, Works, StarsCanvas } from "./components";
 
 const App = () => {
   return (
@@ -14,7 +14,6 @@ const App = () => {
         <Experience />
         <Education />
         <Works />
-        <Feedbacks />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
