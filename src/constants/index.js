@@ -9,9 +9,12 @@ import {
   carrent,
   jobit,
   tripguide,
+  kwmFactSheet,
+  iemFactSheet,
+  bachelorThesis,
 } from "../assets";
 
-export const navLinks = [
+const navLinks = [
   {
     id: "about",
     title: "About",
@@ -61,9 +64,9 @@ const experiences = [
       "Introduced a cyber security software composition analysis solution to the company and rolled it out for multiple teams.",
       "Developed and managed the project of a redesign of a Wordpress blog with thousands of page visits and improved the SEO.",
       "Worked on the redesign of the Tractive webshop.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive designs and ensured cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers.",
       "Mentored new hires and interns by doing pair programming, onboardings and providing support on all matters.",
     ]
   },
@@ -114,6 +117,42 @@ const experiences = [
     points: [
       "Digitalised contracts in order to be able to work with them inside a software tool by extracting the key information of the contract.",
     ],
+  },
+];
+
+const educationStages = [
+  {
+    title: "MSC in Information Engineering and Management",
+    company_name: "University of Applied Sciences Upper Austria - Campus Hagenberg",
+    icon: fhooe,
+    iconBg: "#fff",
+    date: "Sept 2022 - Present",
+    url : "https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/master/information-engineering-and-management/",
+    points: [
+      "Average Grades: 1.03",
+      "Received the university performance scholarship for all semesters."
+    ],
+    thesisTitle : "In Progress",
+    thesisTitleEn : "",
+    thesisPDF : "",
+    factSheet : iemFactSheet
+  },
+  {
+    title: "BA in Communication and Knowledge Media",
+    company_name: "University of Applied Sciences Upper Austria - Campus Hagenberg",
+    icon: fhooe,
+    iconBg: "#fff",
+    date: "Oct 2019 - July 2022",
+    url : "https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/bachelor/communication-and-knowledge-media/",
+    points: [
+      "Average Grades: 1.07",
+      "Graduated with highest distinction.",
+      "Received the university performance scholarship for all semesters."
+    ],
+    thesisTitle : "Integration von Cyber Security innerhalb agiler Prozessmodelle am Beispiel von Scrumban (German)",
+    thesisTitleEn : "Integration of cyber security within agile process models using Scrumban",
+    thesisPDF : bachelorThesis,
+    factSheet : kwmFactSheet
   },
 ];
 
@@ -210,4 +249,4 @@ const projects = [
   },
 ];
 
-export { services, experiences, testimonials, projects };
+export { navLinks, services, experiences, educationStages, testimonials, projects };

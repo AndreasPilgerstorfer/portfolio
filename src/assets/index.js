@@ -6,10 +6,15 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import download from "./download-icon.svg";
 
 import wag from "./company/wag.svg";
 import tractive from "./company/tractive.png";
 import fhooe from "./company/fhooe.svg";
+
+import kwmFactSheet from "./pdf/fhooe-kwm-infoblatt.pdf";
+import iemFactSheet from "./pdf/fhooe-iem-infoblatt.pdf";
+import bachelorThesis from "./pdf/bachelor-thesis.pdf";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -30,4 +35,8 @@ export {
   wag,
   tractive,
   fhooe,
+  kwmFactSheet,
+  iemFactSheet,
+  bachelorThesis,
+  download
 };
