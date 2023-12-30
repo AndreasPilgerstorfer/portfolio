@@ -16,16 +16,16 @@ import {
 
 const navLinks = [
   {
-    id: "about",
-    title: "About",
-  },
-  {
     id: "work",
     title: "Work",
   },
   {
     id: "education",
     title: "Education",
+  },
+  {
+    id: "about",
+    title: "About",
   },
   {
     id: "Contact",

@@ -1,7 +1,7 @@
 import { EarthCanvas, BallCanvas, StarsCanvas } from './canvas';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import About from "./About";
+import Introduction from "./Introduction.jsx";
 import Experience from "./Experience";
 import Education from "./Education";
 import Works from "./Works";
@@ -13,7 +13,7 @@ import CanvasLoader from "./Loader";
 export {
   Hero,
   Navbar,
-  About,
+  Introduction,
   Experience,
   Education,
   Works,
