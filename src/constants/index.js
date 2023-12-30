@@ -26,7 +26,7 @@ const navLinks = [
     title: "About",
   },
   {
-    id: "Contact",
+    id: "contact",
     title: "Contact",
   },
 ];
