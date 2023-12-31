@@ -1,0 +1,40 @@
+.hero {
+  &__animation {
+    color: white;
+    position: relative;
+    text-shadow: -1px -1px 0 #402C78, 1px -1px 0 #402C78, -1px 1px 0 #402C78, 1px 1px 0 #402C78;
+    display: block;
+    width: fit-content;
+    padding-right: 10px;
+
+
+    @media (min-width: 750px) {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+
+    &::before {
+      height: 100%;
+      color: #915EFF;
+      overflow: hidden;
+      position: absolute;
+      content: attr(data-text);
+      border-right: 4px solid #c19bf5;
+      text-shadow: -1px -1px 0 #402C78, 1px -1px 0 #402C78, -1px 1px 0 #402C78, 1px 1px 0 #402C78;
+      animation: animate 7s linear infinite;
+    }
+  }
+
+  @keyframes animate {
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+
+    80%,
+    90% {
+      width: 100%;
+    }
+  }
+}

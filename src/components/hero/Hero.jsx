@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
-import { styles } from "../styles";
+import { styles } from "../../styles.js";
+import "./hero.scss";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto hero`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -13,18 +14,18 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Andreas</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Todo <br className='sm:block hidden' />
-            Todo
-          </p>
+            <h1>
+                <span className={`${styles.heroHeadText} text-white`}>
+                    Hi, I'm <span className='text-[#915EFF]'>Andreas</span>
+                    <br/>
+                    <span className="hero__animation" data-text="Pilgerstorfer">Pilgerstorfer</span>
+                 </span>
+            </h1>
         </div>
       </div>
 
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#introduction'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

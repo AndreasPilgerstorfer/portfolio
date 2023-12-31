@@ -1,5 +1,5 @@
 import { EarthCanvas, BallCanvas, StarsCanvas } from './canvas';
-import Hero from "./Hero";
+import Hero from "./hero/Hero.jsx";
 import Navbar from "./Navbar";
 import Introduction from "./Introduction.jsx";
 import Experience from "./Experience";
