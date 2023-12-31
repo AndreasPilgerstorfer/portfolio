@@ -47,7 +47,7 @@ const Introduction = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          I'm an aspiring program and project manager deeply engaged in pursuing
+          I'm an <strong>aspiring program and project manager</strong> currently engaged in pursuing
           my Masters and eager to apply my evolving skill set.
           Despite my professional background in web development, my primary
           focus lies in leveraging my adaptable nature and collaborative approach
