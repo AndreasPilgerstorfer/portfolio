@@ -29,12 +29,12 @@ const Hero = () => {
                             <picture>
                                 <source
                                     type="image/avif"
-                                    height="700"
+                                    height="600"
                                     media="(min-width: 1024px)"
                                     srcSet="
-                       https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.avif 1x,
-                       https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.avif 2x,
-                       https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.avif 3x
+                       https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.avif 1x,
+                       https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.avif 2x,
+                       https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.avif 3x
                     "
                                 />
                                 <source
@@ -48,12 +48,12 @@ const Hero = () => {
                                 />
                                 <source
                                     type="image/webp"
-                                    height="700"
+                                    height="600"
                                     media="(min-width: 1024px)"
                                     srcSet="
-                       https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.webp 1x,
-                       https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.webp 2x,
-                       https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.webp 3x
+                       https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.webp 1x,
+                       https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.webp 2x,
+                       https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.webp 3x
                     "
                                 />
                                 <source
@@ -69,10 +69,10 @@ const Hero = () => {
                                     src="
                 https://res.cloudinary.com/dknhd0twk/image/upload/h_300,dpr_1.0/v1704655354/hero-img.png"
                                     srcSet="
-                https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.png 1024w,
+                https://res.cloudinary.com/dknhd0twk/image/upload/h_600,dpr_1.0/v1704655354/hero-img.png 1024w,
                 https://res.cloudinary.com/dknhd0twk/image/upload/h_300,dpr_1.0/v1704655354/hero-img.png 300w"
                                     alt="Andreas Pilgerstorfer"
-                                    sizes="(max-width: 1024px) 300px, 700px"
+                                    sizes="(max-width: 1024px) 300px, 600px"
                                     className="max-w-none hero__image"
                                 />
                             </picture>
