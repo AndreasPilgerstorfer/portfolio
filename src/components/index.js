@@ -5,6 +5,7 @@ import Introduction from "./Introduction.jsx";
 import Experience from "./Experience";
 import Education from "./Education";
 import Contact from "./Contact";
+import About from "./about/About.jsx";
 import CanvasLoader from "./Loader";
 
 export {
@@ -14,6 +15,7 @@ export {
   Experience,
   Education,
   Contact,
+  About,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

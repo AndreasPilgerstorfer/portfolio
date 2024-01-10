@@ -1,0 +1,63 @@
+.about {
+  &__image-container {
+    overflow: hidden;
+  }
+
+  &__image {
+    position: relative;
+    min-height: 250px;
+    overflow: hidden;
+
+    &--small {
+      min-height: 100px;
+    }
+
+    &--cyber {
+      background-image: url('https://res.cloudinary.com/dknhd0twk/image/upload/h_500,dpr_1.0/v1704655354/cyber-security.png');
+      background-size: cover;
+      filter: grayscale(50%);
+    }
+
+    &--design {
+      background-image: url('https://res.cloudinary.com/dknhd0twk/image/upload/h_500,dpr_1.0/v1704655354/design-pen-dark.png');
+      background-size: cover;
+      filter: grayscale(20%);
+    }
+
+    &--running {
+      background-image: url('https://res.cloudinary.com/dknhd0twk/image/upload/h_500,dpr_1.0/v1704655354/running.png');
+      background-size: cover;
+      filter: grayscale(50%);
+    }
+
+    &--plane {
+      background-image: url('https://res.cloudinary.com/dknhd0twk/image/upload/h_500,dpr_1.0/v1704655354/travel-plane.png');
+      background-size: cover;
+      filter: brightness(80%) grayscale(10%);
+    }
+
+    &--table-tennis {
+      background-image: url('https://res.cloudinary.com/dknhd0twk/image/upload/h_500,dpr_1.0/v1704655354/table-tennis.png');
+      background-size: cover;
+      filter: grayscale(10%);
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: inherit;
+      background-size: inherit;
+      filter: inherit;
+      transition: transform 0.3s ease;
+      z-index: -1;
+    }
+
+    &:hover::before {
+      transform: scale(1.2);
+    }
+  }
+}

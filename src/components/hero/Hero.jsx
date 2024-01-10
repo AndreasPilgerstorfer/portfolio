@@ -67,17 +67,16 @@ const Hero = () => {
                                 />
                                 <img
                                     src="
-                https://res.cloudinary.com/dknhd0twk/image/upload/h_300,dpr_1.0/v1704655354/hero-img"
+                https://res.cloudinary.com/dknhd0twk/image/upload/h_300,dpr_1.0/v1704655354/hero-img.png"
                                     srcSet="
-                https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img 1024w,
-                https://res.cloudinary.com/dknhd0twk/image/upload/h_300,dpr_1.0/v1704655354/hero-img 300w"
+                https://res.cloudinary.com/dknhd0twk/image/upload/h_700,dpr_1.0/v1704655354/hero-img.png 1024w,
+                https://res.cloudinary.com/dknhd0twk/image/upload/h_300,dpr_1.0/v1704655354/hero-img.png 300w"
                                     alt="Andreas Pilgerstorfer"
                                     sizes="(max-width: 1024px) 300px, 700px"
                                     className="max-w-none hero__image"
                                 />
                             </picture>
                         </div>
-
                     </div>
                 </div>
             </div>

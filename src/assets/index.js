@@ -10,6 +10,8 @@ import download from "./download-icon.svg";
 import wag from "./company/wag.svg";
 import tractive from "./company/tractive.png";
 import fhooe from "./company/fhooe.svg";
+import linkedin from "./company/linkedin.svg";
+import github from "./company/github.svg";
 
 import kwmFactSheet from "./pdf/fhooe-kwm-infoblatt.pdf";
 import iemFactSheet from "./pdf/fhooe-iem-infoblatt.pdf";
@@ -27,6 +29,8 @@ export {
   wag,
   tractive,
   fhooe,
+  linkedin,
+  github,
   kwmFactSheet,
   iemFactSheet,
   bachelorThesis,

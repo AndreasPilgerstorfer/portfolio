@@ -27,6 +27,7 @@ const EducationCard = ({ education }) => {
               <a href={education.url} target="_blank" rel="noopener">
                   <div className='flex justify-center items-center w-full h-full'>
                       <img
+                          loading="lazy"
                           src={education.icon}
                           alt={education.company_name}
                           className='w-[60%] h-[60%] object-contain'

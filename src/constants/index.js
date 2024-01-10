@@ -6,7 +6,6 @@ import {
   wag,
   tractive,
   fhooe,
-
   kwmFactSheet,
   iemFactSheet,
   bachelorThesis,
@@ -60,9 +59,9 @@ const experiences = [
     url : "https://tractive.com/en/",
     points: [
       "Introduced a cyber security software composition analysis solution to the company and rolled it out for multiple teams.",
-      "Developed and managed the project of a redesign of a Wordpress blog with thousands of page visits and improved the SEO.",
+      "Managed and developed the project of the redesign of a Wordpress blog with thousands of page visits and improved the SEO rating.",
       "Worked on the redesign of the Tractive webshop.",
-      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with cross-functional teams including management, designers, product managers, and other developers to create high-quality products.",
       "Implemented responsive designs and ensured cross-browser compatibility.",
       "Participated in code reviews and provided constructive feedback to other developers.",
       "Mentored new hires and interns by doing pair programming, onboardings and providing support on all matters.",
