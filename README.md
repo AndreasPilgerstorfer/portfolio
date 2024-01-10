@@ -1,9 +1,3 @@
-
-## 🚨 Used Tutorials
-
-
-<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
 ## ⚙️ Tech Stack
 
 - Node.js
@@ -14,6 +8,7 @@
 - Email JS
 - Vite
 - Tailwind CSS
+- SCSS
 
 
 ## 🤸 Start 
