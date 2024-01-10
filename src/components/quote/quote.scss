@@ -1,0 +1,21 @@
+.quote {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '“';
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100px;
+    color: white;
+    top: -100px;
+  }
+
+  &::after {
+    position: absolute;
+    content: '”';
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100px;
+    color: white;
+    right: 0;
+  }
+}

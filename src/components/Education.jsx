@@ -94,7 +94,7 @@ const EducationCard = ({ education }) => {
 
 const Education = () => {
     return (
-        <>
+        <div className="mt-10">
             <motion.div variants={textVariant()}>
                 <p className={`${styles.sectionSubText} text-center`}>
                     What I have studied so far
@@ -114,7 +114,7 @@ const Education = () => {
                     ))}
                 </VerticalTimeline>
             </div>
-        </>
+        </div>
     );
 };
 
