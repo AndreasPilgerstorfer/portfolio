@@ -1,6 +1,7 @@
-import React, { Suspense } from "react";
+import React, {Suspense, useEffect, useState} from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import "./earth-canvas.scss";
 
 import CanvasLoader from "../Loader";
 
@@ -13,9 +14,26 @@ const Earth = () => {
 };
 
 const EarthCanvas = () => {
-  return (
+    const [isTouchDevice, setIsTouchDevice] = useState(false);
+
+    useEffect(() => {
+        const checkIfTouchDevice = () => {
+            setIsTouchDevice('ontouchstart' in window || navigator.maxTouchPoints > 0);
+        };
+
+        checkIfTouchDevice();
+
+        window.addEventListener("resize", checkIfTouchDevice);
+
+        return () => {
+            window.removeEventListener("resize", checkIfTouchDevice);
+        };
+    }, []);
+
+    return (
     <Canvas
       shadows
+      className={isTouchDevice ? "earth-canvas" : ""}
       frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
@@ -40,7 +58,7 @@ const EarthCanvas = () => {
         <Preload all />
       </Suspense>
     </Canvas>
-  );
+    );
 };
 
 export default EarthCanvas;

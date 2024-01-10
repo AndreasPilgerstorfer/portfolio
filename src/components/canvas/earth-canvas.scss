@@ -1,0 +1,11 @@
+.earth-canvas {
+  overflow: scroll !important;
+  touch-action: auto !important;
+
+  &::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit */
+  }
+
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
