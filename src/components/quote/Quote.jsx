@@ -15,7 +15,7 @@ const Quote = () => {
                     able to
                     <strong> acquire required knowledge</strong> in various technologies, programming languages and
                     frameworks
-                    <strong>within the shortest time</strong>.
+                    <strong> within the shortest time</strong>.
                     <br/><br/>
                     During his internship he <strong>planned, coordinated and implemented a broad range of different
                     projects</strong> to

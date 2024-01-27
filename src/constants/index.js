@@ -126,7 +126,7 @@ const educationStages = [
     date: "Sept 2022 - Present",
     url : "https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/master/information-engineering-and-management/",
     points: [
-      "Average Grades: 1.03",
+      "Average grades: 1.03",
       "Received the university performance scholarship for all semesters."
     ],
     thesisTitle : "In Progress",
@@ -142,7 +142,7 @@ const educationStages = [
     date: "Oct 2019 - July 2022",
     url : "https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/bachelor/communication-and-knowledge-media/",
     points: [
-      "Average Grades: 1.07",
+      "Average grades: 1.07",
       "Graduated with highest distinction.",
       "Received the university performance scholarship for all semesters."
     ],
