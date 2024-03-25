@@ -73,19 +73,21 @@ const EducationCard = ({ education }) => {
                       <span className="font-bold">Thesis:&nbsp;</span>
                       <span>{education.thesisTitleEn}</span>
                   </div>
-                  <a href={education.thesisPDF} target="_blank" rel="noopener"
-                     className="flex justify-start items-end">
-                      <div>
-                          <img
-                              className='w-[28px] h-[28px] object-contain'
-                              src={download}
-                              alt="download"
-                          />
-                      </div>
-                      <span className="text-[16px] hover:underline ml-2">
-                        Download Thesis (German)
-                    </span>
-                  </a>
+                  {education.thesisPDF && (
+                      <a href={education.thesisPDF} target="_blank" rel="noopener" className="flex justify-start items-end">
+                          <div>
+                              <img
+                                  className='w-[28px] h-[28px] object-contain'
+                                  src={download}
+                                  alt="download"
+                              />
+                          </div>
+                          <span className="text-[16px] hover:underline ml-2">
+                              Download Thesis (German)
+                          </span>
+                      </a>
+                  )}
+
               </div>
           )}
       </VerticalTimelineElement>

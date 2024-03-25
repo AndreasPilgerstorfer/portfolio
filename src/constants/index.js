@@ -58,13 +58,13 @@ const experiences = [
     date: "Aug 2022 - Present",
     url : "https://tractive.com/en/",
     points: [
-      "Introduced a cyber security software composition analysis solution to the company and rolled it out for multiple teams.",
+      "Introduced a cybersecurity software composition analysis solution within the company and rolled it out to multiple teams.",
       "Managed and developed the project of the redesign of a Wordpress blog with thousands of page visits and improved the SEO rating.",
-      "Worked on the redesign of the Tractive webshop.",
+      "Worked as one of the main developers on the redesign of the Tractive web shop using Kotlin, TypeScript, SCSS, and Thymeleaf.",
       "Collaborated with cross-functional teams including management, designers, product managers, and other developers to create high-quality products.",
       "Implemented responsive designs and ensured cross-browser compatibility.",
       "Participated in code reviews and provided constructive feedback to other developers.",
-      "Mentored new hires and interns by doing pair programming, onboardings and providing support on all matters.",
+      "Mentored new hires and interns through pair programming and one-on-one onboarding support, resulting in their retention at the company.",
     ]
   },
   {
@@ -75,8 +75,8 @@ const experiences = [
     url: "https://www.fh-ooe.at/",
     date: "Sept 2021 - Feb 2022",
     points: [
-      "Graded the homeworks of the students in the course.",
-      "Provided feedback to the students on how they could improve their code for future assignments."
+      "Assisted a professor in his web programming course by grading assignments for Bachelor's and Master's students.",
+      "Provided quality feedback on how students could improve their code for future assignments."
     ],
   },
   {
@@ -100,8 +100,8 @@ const experiences = [
     url: "https://www.fh-ooe.at/",
     date: "Feb 2021 - July 2021",
     points: [
-      "Graded the homeworks of the students in the course.",
-      "Provided feedback to the students on how they could improve their code for future assignments."
+      "Assisted a professor in his web programming course by grading assignments for Bachelor's and Master's students.",
+      "Provided quality feedback on how students could improve their code for future assignments."
     ],
   },
   {
@@ -126,11 +126,11 @@ const educationStages = [
     date: "Sept 2022 - Present",
     url : "https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/master/information-engineering-and-management/",
     points: [
-      "Average grades: 1.03",
+      "Average grades: 1.05",
       "Received the university performance scholarship for all semesters."
     ],
-    thesisTitle : "In Progress",
-    thesisTitleEn : "",
+    thesisTitle : "Comparison and evaluation of in-process open-source application security testing tools for the implementation of DevSecOps in the software development lifecycle.",
+    thesisTitleEn : "Comparison and evaluation of in-process open-source application security testing tools for the implementation of DevSecOps in the software development lifecycle.",
     thesisPDF : "",
     factSheet : iemFactSheet
   },
