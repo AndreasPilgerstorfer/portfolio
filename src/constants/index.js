@@ -87,6 +87,7 @@ const experiences = [
     url : "https://tractive.com/en/",
     date: "Aug 2021 - Jan 2022",
     points: [
+      "Created a low interaction honeypot using AWS WAF, CloudFront and Lambda that successfully defends the Tractive webshop against vulnerability scanners and bots.",
       "Implemented an Angular application to calculate the bmi for dogs and cats.",
       "Created a landingpage which helped Tractive to launch their product in Japan.",
       "Worked with various stakeholders to deliver tasks in the best manner."
