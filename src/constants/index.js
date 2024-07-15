@@ -124,10 +124,11 @@ const educationStages = [
     company_name: "University of Applied Sciences Upper Austria - Campus Hagenberg",
     icon: fhooe,
     iconBg: "#fff",
-    date: "Sept 2022 - Present",
+    date: "Sept 2022 - July 2024",
     url : "https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/master/information-engineering-and-management/",
     points: [
       "Average grades: 1.05",
+      "Graduated with highest distinction.",
       "Received the university performance scholarship for all semesters."
     ],
     thesisTitle : "Comparison and evaluation of in-process open-source application security testing tools for the implementation of DevSecOps in the software development lifecycle.",
