@@ -48,13 +48,12 @@ const Introduction = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          I'm an <strong>aspiring program and project manager</strong> currently engaged in pursuing
-          my Masters and eager to apply my evolving skill set.
-          Despite my professional background in web development, my primary
-          focus lies in leveraging my adaptable nature and collaborative approach
-          to excel in various projects. I am looking forward to combining technical
-          expertise with strategic planning to deliver efficient, scalable,
-          and user-friendly solutions.
+          I am a <strong>project manager with a background in software development </strong>,
+          eager to apply my skills in real-world projects in order to create outstanding user experiences.
+          With a professional background in web development, I am now focusing on leveraging my adaptability,
+          collaborative approach, and strategic thinking to excel in program and project management.
+          My goal is to combine technical expertise with strategic planning to deliver efficient,
+          scalable, and user-friendly solutions across various projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

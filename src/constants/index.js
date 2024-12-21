@@ -8,7 +8,7 @@ import {
   fhooe,
   kwmFactSheet,
   iemFactSheet,
-  bachelorThesis,
+  bachelorThesis, raiffeisen,
 } from "../assets";
 
 const navLinks = [
@@ -51,11 +51,21 @@ const services = [
 
 const experiences = [
   {
+    title: "IT Project Manager",
+    company_name: "Real Treuhand Management - Raffeisenlandesbank Upper Austria",
+    icon: raiffeisen,
+    iconBg: "#fff",
+    url: "https://www.realtreuhand.at/",
+    date: "Jan 2025 - Present",
+    points: [
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "Tractive",
     icon: tractive,
     iconBg: "#007FC8",
-    date: "Aug 2022 - Present",
+    date: "Aug 2022 - Dec 2024",
     url : "https://tractive.com/en/",
     points: [
       "Introduced a cybersecurity software composition analysis solution within the company and rolled it out to multiple teams.",

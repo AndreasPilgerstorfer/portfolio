@@ -12,11 +12,11 @@ import tractive from "./company/tractive.png";
 import fhooe from "./company/fhooe.svg";
 import linkedin from "./company/linkedin.svg";
 import github from "./company/github.svg";
+import raiffeisen from "./company/raiffeisen.png";
 
 import kwmFactSheet from "./pdf/fhooe-kwm-infoblatt.pdf";
 import iemFactSheet from "./pdf/fhooe-iem-infoblatt.pdf";
 import bachelorThesis from "./pdf/bachelor-thesis.pdf";
-
 
 export {
   logo,
@@ -31,6 +31,7 @@ export {
   fhooe,
   linkedin,
   github,
+  raiffeisen,
   kwmFactSheet,
   iemFactSheet,
   bachelorThesis,
