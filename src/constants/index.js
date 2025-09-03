@@ -8,7 +8,9 @@ import {
   fhooe,
   kwmFactSheet,
   iemFactSheet,
-  bachelorThesis, raiffeisen,
+  bachelorThesis,
+  raiffeisen,
+  redbull
 } from "../assets";
 
 const navLinks = [
@@ -51,12 +53,25 @@ const services = [
 
 const experiences = [
   {
+    title: "E-Commerce Application Manager",
+    company_name: "Red Bull",
+    icon: redbull,
+    iconBg: "#fff",
+    url: "https://www.redbull.com/",
+    date: "April 2025 - Present",
+    points: [
+       "Service Ownership for Shopware.",
+       "Project Management for the shops of VAN DEER-Red Bull Sports.",
+       "Further Topics: Support with Cloudinary, SAP CCO cash register, ...",
+    ],
+  },
+  {
     title: "IT Project Manager",
     company_name: "Real Treuhand Management - Raffeisenlandesbank Upper Austria",
     icon: raiffeisen,
     iconBg: "#fff",
     url: "https://www.realtreuhand.at/",
-    date: "Jan 2025 - Present",
+    date: "Jan 2025 - Feb 2025",
     points: [
     ],
   },
